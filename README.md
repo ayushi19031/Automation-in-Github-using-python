@@ -1,5 +1,10 @@
 # Automation-in-Github-using-python
+# PURPOSE
 Enter information in website through html form and the entered information is sent to python script using django. The python script further prints url of all github repositories in the command line related to the keyword entered using Github api
+
+# IMPLEMENTATION TILL NOW (25/03/2020)
+Enter information in website through html form and the entered information is sent to python script using django.
+A separate python script takes the keyword and prints all github repositories in the command line related to the keyword entered using Github api.  
 
 # Software used
 
