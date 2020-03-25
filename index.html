@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> GitHub PrO Search</title>
+    <!-- <link rel="prefetch" href="C:\Users\ayush\OneDrive\Desktop\WebDevelopment_Course\Automation_with_python\selenium_automation_2.py"> -->
+  </head>
+  <body>
+  <h1>GitHub PrO Search</h1>
+  <ul>
+    <li>Search Repositories: </li>
+    <form name = "passdata" class="" action="{%url 'home'  %}" method = "post" >{% csrf_token %}
+      <label for="SearchValue">What do you wanna search??</label>
+      <input type="text" name="keyword" value = "">
+      <input type="submit" name="" value="">
+    </form>
+    <li>Choose Your language preferences: </li>
+  </ul>
+  </body>
+</html>
